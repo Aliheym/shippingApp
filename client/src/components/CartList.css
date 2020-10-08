@@ -1,0 +1,15 @@
+.cart-list {
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+    .cart-list {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .cart-list {
+        margin-bottom: 1rem;
+    }
+}

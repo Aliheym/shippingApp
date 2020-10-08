@@ -1,0 +1,36 @@
+.shipping {
+    flex-grow: 1;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5rem 7rem;
+
+    font-weight: 500;
+    font-size: 1.6rem;
+
+    background-color: #fff;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .15);
+}
+
+@media (max-width: 1200px) {
+    .shipping {
+        width: 70%;
+    }
+}
+
+@media (max-width: 960px) {
+    .shipping {
+        padding: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .shipping {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .shipping {
+        padding: 5rem 2rem;
+    }
+}

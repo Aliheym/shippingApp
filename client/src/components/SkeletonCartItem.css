@@ -1,0 +1,48 @@
+.skeleton {
+    background-color: #ececec;
+
+    animation: skeleton 1.5s ease-in-out .5s infinite;
+}
+
+.cart-item--skeleton {
+    pointer-events: none;
+}
+
+.cart-item--skeleton:last-child {
+    border-bottom: none;
+}
+
+.cart-item--skeleton .cart-item__title {
+    height: 2.5rem;
+}
+
+.cart-item--skeleton .cart-item__description {
+    height: 8rem;
+}
+
+.cart-item--skeleton .cart-item__trash {
+    width: 5rem;
+    height: 5rem;
+}
+
+.cart-item--skeleton .cart-item__order {
+    align-items: stretch;
+}
+
+.quantity--skeleton > * {
+    border: none;
+}
+
+@keyframes skeleton {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

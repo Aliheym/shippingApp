@@ -1,0 +1,44 @@
+.quantity {
+    display: flex;
+}
+
+.quantity__btn {
+    width: 5rem;
+    height: 5rem;
+
+    font-size: 1.5rem;
+
+    background-color: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+
+    transition: background-color .2s;
+}
+
+.quantity__btn:hover {
+    background-color: #cabdc6;
+}
+
+.quantity__value {
+    width: 7rem;
+
+    font: inherit;
+    font-size: 1.6rem;
+    text-align: center;
+    color: inherit;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    -moz-appearance: textfield;
+}
+
+/* прячем стрелочки в input[type="number"] */
+.quantity__value::-webkit-outer-spin-button,
+.quantity__value::-webkit-inner-spin-button {
+    margin: 0;
+
+    -webkit-appearance: none;
+}
